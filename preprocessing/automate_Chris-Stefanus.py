@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
 def preprocess_data(
-    input_path="titanic_raw/Titanic-Dataset.csv",
+    input_path="titanic_raw/titanic.csv",
     output_path="preprocessing/titanic_preprocessed.csv"
 ):
 
